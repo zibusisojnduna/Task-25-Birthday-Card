@@ -32,6 +32,6 @@
 
 <p>Install Yarn globally (optional):</p>
 
-``
+```
 npm intsall -g yarn
-``
+```
