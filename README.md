@@ -32,6 +32,85 @@
 
 <p>Install Yarn globally (optional):</p>
 
+<h1>1. Clone repository:</h1>
 ```
-npm intsall -g yarn
+git clone https://github.com/zibusisojnduna/Task-25-Birthday-Card
 ```
+<h2>2. Install dependecies</h2>
+
+<p>if you are using npm:</p>
+
+```
+npm install
+```
+<p>or if you are using yarn:</p>
+
+```
+yarn install
+```
+
+<h1>3. Start the App</h1>
+
+<p>If you  are using expo:</p>
+
+<p>Run the command to start the app in Expo:</p>
+
+```
+expo start
+```
+
+<p>You can scan the QR code displayed in your terminal using the Expo Go app on your phone to run the app directly.
+
+If you’re using React Native CLI:
+
+To run the app on an Android emulator or iOS simulator:</p>
+
+```
+npx react-native run-android   # For Android
+npx react-native run-ios       # For iOS (on macOS)
+```
+
+<h1>Usage</h1>
+
+<p>Once the app is running, you'll see a screen where you can:</p>
+
+<p>Design your own birthday card.
+Add and edit text on the card.
+Upload an image (or use a default image) to enhance your card.</p>
+
+<p>Use the provided UI elements to customize the card’s message and appearance.</p>
+
+<p>Use the provided UI elements to customize the card’s message and appearance.</p>
+
+<p>Save and share your customized birthday card with others.</p>
+
+<h1>Troubleshooting</h1>
+
+<p>Issue with Dependencies: If you get errors related to missing dependencies, try running the following:</p>
+
+```
+npm install
+```
+
+<p>Or, if using yarn:</p>
+
+```
+yarn install
+```
+
+<p>Cache Issues:If you face issues related to caching (such as changes not appearing), try clearing the cache:</p>
+
+<p>For npm:</p>
+
+```
+npm start -- --reset cache
+```
+
+<p>For yarn:</p>
+
+```
+yarn start -- --reset cache
+```
+
+
+
