@@ -51,6 +51,8 @@ function CardScreen() {
     )
 }
 
+export default CardScreen;
+
 const styles = StyleSheet.create({
     container:{
         flex: 1,
