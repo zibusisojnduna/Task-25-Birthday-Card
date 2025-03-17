@@ -33,6 +33,7 @@
 <p>Install Yarn globally (optional):</p>
 
 <h1>1. Clone repository:</h1>
+
 ```
 git clone https://github.com/zibusisojnduna/Task-25-Birthday-Card
 ```
